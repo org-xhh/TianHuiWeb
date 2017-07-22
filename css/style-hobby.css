@@ -1,0 +1,32 @@
+.bgPic{
+    width:1366px;
+    height:700px;
+    background: url(../img/bgPic.png);
+    position:relative;
+}
+.meitu{
+    width:200px;
+    height:150px;
+    position:absolute;
+}
+.meitu1{
+    transform: rotate(20deg);
+}
+.meitu2{
+    /*transform: rotate(60deg);*/
+}
+.meitu3{
+    transform: rotate(-40deg);
+}
+.meitu4{
+    transform: rotate(20deg);
+}
+.meitu5{
+    transform: rotate(-10deg);
+}
+.meikuang{
+    position: absolute;
+    top:50%;
+    margin-top: -155px;
+}
+

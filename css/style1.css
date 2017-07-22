@@ -1,0 +1,72 @@
+/* CSS Document */
+@charset "UTF-8";
+/*初始化 reset*/
+*{
+    margin:0;
+    paddin:0;
+}
+ol,ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+fieldset,img{
+    border:0;
+    vertical-align:top;
+}
+a,input,button,select,textarea{
+    outline:none;
+}
+a,button{
+    cursor:pointer;
+}
+.wrap{
+    width:1200px;
+    margin:0px auto;
+}
+.slide{
+    height:500px;
+    background-color:pink;
+    position:relative;
+}
+.prev,.next{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:50%;
+    margin-top:-56px;/*自身高度的一半*/
+    z-index:99;
+}
+.prev{
+    background: url(../img/jiantou.png);
+}
+.next{
+    background: url(../img/jiantou1.png);
+}
+.slide li{
+    position:absolute;
+    left:200px;
+}
+.slide li img{
+    width:100%;
+}
+.next{
+    right:0;
+}
+.arrow{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
